@@ -30,9 +30,9 @@ jobs:
       - name: Azure Login
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
-          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          client-id: "613a3d26-f18c-46b4-9f29-dbcae1b8a227"
+          tenant-id: "39faf049-c790-4cc2-9968-b71d24fbf612"
+          subscription-id: "8e63d43f-1267-43f8-99a8-1132205c4cb0"
 
       # 3. Setup Terraform
       - name: Setup Terraform
